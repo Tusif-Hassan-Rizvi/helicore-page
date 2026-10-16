@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         abhaya: ['"Abhaya Libre"', 'serif'],
         work: ['"Work Sans"', 'sans-serif'],
+        montserrat: ['"Montserrat"', 'sans-serif'],
       },
     },
   },
