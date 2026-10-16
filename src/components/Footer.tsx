@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="w-full bg-black text-white">
       <div className="w-full px-[40px] lg:px-[100px] pt-[60px] pb-[80px]">
-        <div className="grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 lg:gap-8 xl:gap-12">
+        <div className="grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_1.1fr_1fr_1.4fr_1.9fr] lg:gap-8 xl:gap-12">
           <div>
             <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
               Quick Links
@@ -167,7 +167,7 @@ export default function Footer() {
                 <h4 className="mb-2 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
                   Locate us
                 </h4>
-                <p className="font-work text-[14px] leading-[141%] text-white">
+                <p className="w-[350px] max-w-full font-work text-[14px] leading-[141%] text-white">
                   1820 E Ray Road, STE A107, Chandler, Arizona 85225
                 </p>
                 <p className="mt-1 font-work text-[14px] leading-[141%] text-white">
@@ -182,7 +182,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="mt-6 lg:mt-0">
+            <div className="mt-7">
               <h4 className="mb-3 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
                 Follow us
               </h4>
@@ -258,7 +258,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="w-full border-t border-white/30">
+      <div className="w-full border-t border-white/20">
         <p className="py-4 text-center font-work text-[12px] font-normal leading-[30px] tracking-[0.2px] text-white">
           &copy; Ada Psychiatry. All rights reserved.
         </p>

@@ -1,5 +1,6 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
+import FounderSection from './components/FounderSection'
 import FaqSection from './components/FaqSection'
 import Footer from './components/Footer'
 
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <main className="flex-1">
         <Hero />
+        <FounderSection />
         <FaqSection />
       </main>
       <Footer />
