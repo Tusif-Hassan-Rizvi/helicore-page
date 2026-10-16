@@ -7,6 +7,7 @@ interface ButtonProps {
   onClick?: () => void
   type?: 'button' | 'submit' | 'reset'
   className?: string
+  gradient?: string
 }
 
 export default function Button({
@@ -16,6 +17,7 @@ export default function Button({
   onClick,
   type = 'button',
   className = '',
+  gradient,
 }: ButtonProps) {
   const defaultArrow = (
     <svg
@@ -44,7 +46,8 @@ export default function Button({
     <button
       type={type}
       onClick={onClick}
-      className={`group inline-flex items-center justify-center gap-2.5 rounded-full px-7 py-2.5 font-work font-medium text-[16px] leading-[27px] text-black bg-gold-gradient transition-opacity duration-300 hover:opacity-90 active:opacity-80 cursor-pointer ${className}`}
+      style={gradient ? { background: gradient } : undefined}
+      className={`group inline-flex items-center justify-center gap-2.5 rounded-full px-7 py-2.5 font-work font-medium text-[16px] leading-[27px] text-black ${gradient ? '' : 'bg-gold-gradient'} transition-opacity duration-300 hover:opacity-90 active:opacity-80 cursor-pointer ${className}`}
     >
       <span>{text}</span>
       {showIcon && (icon || defaultArrow)}
