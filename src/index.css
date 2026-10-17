@@ -32,4 +32,5 @@
 
 body {
   font-family: var(--font-work);
+  background-color: var(--color-cream-secondary);
 }
