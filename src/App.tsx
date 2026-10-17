@@ -7,6 +7,7 @@ import ServicesSection from './components/ServicesSection'
 import WhyChooseUsSection from './components/WhyChooseUsSection'
 import TestimonialsSection from './components/TestimonialsSection'
 import FourStepsSection from './components/FourStepsSection'
+import StatesSection from './components/StatesSection'
 import FaqSection from './components/FaqSection'
 import Footer from './components/Footer'
 
@@ -23,6 +24,7 @@ function App() {
         <WhyChooseUsSection />
         <TestimonialsSection />
         <FourStepsSection />
+        <StatesSection />
         <FaqSection />
       </main>
       <Footer />
