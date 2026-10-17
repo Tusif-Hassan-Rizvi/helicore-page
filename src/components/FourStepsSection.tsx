@@ -41,7 +41,7 @@ export default function FourStepsSection() {
         }}
       />
 
-      <div className="mx-auto max-w-[1280px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
+      <div className="mx-auto max-w-[1280px] px-[25px] py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[620px] text-center">
           <h2
             data-aos="fade-up"

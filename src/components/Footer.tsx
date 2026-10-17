@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="w-full bg-black text-white">
-      <div className="w-full px-[40px] lg:px-[100px] pt-[60px] pb-[80px]">
+      <div className="w-full px-[25px] sm:px-[40px] lg:px-[100px] pt-[60px] pb-[80px]">
         <div className="grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_1.1fr_1fr_1.4fr_1.9fr] lg:gap-8 xl:gap-12">
           <div data-aos="fade-up">
             <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">

@@ -37,7 +37,7 @@ const treatmentItems: TreatmentItem[] = [
 
 export default function TreatmentFocusSection() {
   return (
-    <section className="w-full bg-cream-secondary px-[24px] py-12 sm:px-[40px] md:py-16 lg:px-[80px] lg:py-[80px]">
+    <section className="w-full bg-cream-secondary px-[25px] py-12 sm:px-[40px] md:py-16 lg:px-[80px] lg:py-[80px]">
       <div className="mx-auto w-full max-w-[1080px]">
         <h2
           data-aos="fade-up"

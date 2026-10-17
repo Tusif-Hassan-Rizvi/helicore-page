@@ -2,7 +2,7 @@ import Button from './Button'
 
 export default function FounderSection() {
   return (
-    <section className="relative w-full border-none overflow-hidden bg-[#F7EED9] px-[24px] pt-12 pb-12 sm:px-[40px] sm:pt-16 sm:pb-16 md:pt-20 md:pb-36 lg:px-[60px] lg:pt-[90px] lg:pb-[140px]">
+    <section className="relative w-full border-none overflow-hidden bg-[#F7EED9] px-[25px] pt-12 pb-12 sm:px-[40px] sm:pt-16 sm:pb-16 md:pt-20 md:pb-36 lg:px-[60px] lg:pt-[90px] lg:pb-[140px]">
       <div className="relative z-10 mx-auto flex w-full max-w-[1160px] flex-col items-center lg:flex-row lg:items-center lg:justify-center">
         <div
           data-aos="fade-right"

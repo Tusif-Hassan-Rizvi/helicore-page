@@ -17,7 +17,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full bg-black border-b border-white/10">
-      <div className="flex h-[80px] w-full items-center justify-between px-[40px]">
+      <div className="flex h-[80px] w-full items-center justify-between px-[25px] sm:px-[40px]">
         <a href="/" className="flex items-center gap-3 group">
           <img
             src="/images/brand-logo.svg"

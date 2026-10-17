@@ -38,7 +38,7 @@ export default function FaqSection() {
   }
 
   return (
-    <section className="w-full bg-cream-secondary px-[24px] py-12 sm:px-[40px] md:px-[80px] md:py-16 lg:px-[175px] lg:py-[80px]">
+    <section className="w-full bg-cream-secondary px-[25px] py-12 sm:px-[40px] md:px-[80px] md:py-16 lg:px-[175px] lg:py-[80px]">
       <div className="mx-auto w-full max-w-[1090px]">
         <h2
           data-aos="fade-up"

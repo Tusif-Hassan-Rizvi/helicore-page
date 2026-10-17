@@ -159,7 +159,7 @@ export default function Hero() {
               />
             </div>
 
-            <div className="relative z-10 flex h-full w-full flex-col justify-center px-[40px] lg:px-[100px]">
+            <div className="relative z-10 flex h-full w-full flex-col justify-center px-[25px] sm:px-[40px] lg:px-[100px]">
               <div className="max-w-[560px]">
                 <h1 className="font-abhaya text-[32px] font-normal uppercase leading-[38px] text-white sm:text-[40px] sm:leading-[48px] lg:text-[48px] lg:leading-[56.5px] whitespace-pre-line">
                   {slide.title}

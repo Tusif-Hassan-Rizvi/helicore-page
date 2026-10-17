@@ -45,7 +45,7 @@ export default function WhyChooseUsSection() {
 
   return (
     <section className="relative w-full bg-[#F7EED9] py-16 sm:py-20 lg:py-24">
-      <div className="mx-auto max-w-[1240px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1240px] px-[25px] sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12 lg:gap-16 xl:gap-20">
           <div
             data-aos="fade-right"

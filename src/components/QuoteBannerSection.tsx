@@ -15,7 +15,7 @@ export default function QuoteBannerSection() {
           />
         </svg>
 
-        <div className="relative z-10 mx-auto flex max-w-[980px] -translate-y-3 flex-col items-center justify-center px-6 text-center sm:-translate-y-4 lg:-translate-y-5">
+        <div className="relative z-10 mx-auto flex max-w-[980px] -translate-y-3 flex-col items-center justify-center px-[25px] sm:px-6 text-center sm:-translate-y-4 lg:-translate-y-5">
           <span
             data-aos="zoom-in"
             className="font-abhaya text-[60px] font-bold text-[#C18C2C] select-none sm:text-[75px] lg:text-[100px] h-[30px] sm:h-[36px] lg:h-[42px] flex items-center justify-center overflow-visible relative top-4"

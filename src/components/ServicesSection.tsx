@@ -30,7 +30,7 @@ const services = [
 export default function ServicesSection() {
   return (
     <section className="relative w-full bg-cream-secondary py-14 sm:py-20 lg:py-[100px]">
-      <div className="mx-auto max-w-[1240px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1240px] px-[25px] sm:px-6 lg:px-8">
         <h2
           data-aos="fade-up"
           className="text-center font-abhaya text-[32px] font-bold leading-[32px] text-[#1B1B1B] sm:text-[36px] lg:text-[40px]"

@@ -40,7 +40,7 @@ const statesData: StateItem[] = [
 export default function StatesSection() {
   return (
     <section className="relative w-full bg-cream-secondary py-16 sm:py-20 lg:py-24">
-      <div className="mx-auto max-w-[1260px] px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1260px] px-[25px] sm:px-6 lg:px-8">
         <div className="mx-auto max-w-[700px] text-center">
           <h2
             data-aos="fade-up"
