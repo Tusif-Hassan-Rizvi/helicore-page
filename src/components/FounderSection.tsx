@@ -13,7 +13,7 @@ export default function FounderSection() {
         </div>
 
         <div className="relative z-10 mt-6 flex w-full max-w-[722px] flex-col justify-center rounded-[20px] border-2 border-[#DAA520] p-6 sm:p-8 lg:mt-0 lg:-ml-[102px] lg:h-[410px] lg:w-[722px] lg:shrink-0 lg:pt-[36px] lg:pb-[36px] lg:pr-[36px] lg:pl-[135px]">
-          <h2 className="font-abhaya text-[30px] font-bold leading-[32px] text-black sm:text-[36px]">
+          <h2 className="font-abhaya text-[30px] font-bold leading-[32px] text-black md:ml-4 sm:text-[36px]">
             Meet The Founder
           </h2>
 
