@@ -1,3 +1,6 @@
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import FounderSection from './components/FounderSection'
@@ -12,6 +15,15 @@ import FaqSection from './components/FaqSection'
 import Footer from './components/Footer'
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 700,
+      easing: 'ease-out-cubic',
+      once: true,
+      offset: 50,
+    })
+  }, [])
+
   return (
     <div className="flex min-h-screen flex-col bg-black text-white">
       <Header />

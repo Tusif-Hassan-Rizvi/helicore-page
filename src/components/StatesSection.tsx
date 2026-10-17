@@ -42,7 +42,10 @@ export default function StatesSection() {
     <section className="relative w-full bg-cream-secondary py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1260px] px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-[700px] text-center">
-          <h2 className="font-abhaya text-[32px] font-bold leading-[38px] text-[#1B1B1B] sm:text-[36px] sm:leading-[44px] lg:text-[40px] lg:leading-[48px]">
+          <h2
+            data-aos="fade-up"
+            className="font-abhaya text-[32px] font-bold leading-[38px] text-[#1B1B1B] sm:text-[36px] sm:leading-[44px] lg:text-[40px] lg:leading-[48px]"
+          >
             Now Accepting Patients In
             <br />
             The Following States
@@ -50,9 +53,11 @@ export default function StatesSection() {
         </div>
 
         <div className="mt-12 grid grid-cols-1 justify-items-center gap-x-[30px] gap-y-12 sm:mt-14 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-y-16">
-          {statesData.map((state) => (
+          {statesData.map((state, index) => (
             <div
               key={state.name}
+              data-aos="fade-up"
+              data-aos-delay={index * 80}
               className="group flex w-full max-w-[320px] flex-col items-center text-center sm:max-w-[360px] lg:max-w-[400px]"
             >
               <div className="relative w-full aspect-[2/1] overflow-hidden rounded-t-full rounded-b-none bg-[#00000040]">

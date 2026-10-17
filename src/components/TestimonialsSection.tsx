@@ -116,12 +116,19 @@ export default function TestimonialsSection() {
   return (
     <section className="relative w-full overflow-hidden bg-cream-secondary py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1240px] px-4 text-center sm:px-6 lg:px-8">
-        <h2 className="font-abhaya text-[32px] font-bold leading-[32px] text-[#1B1B1B] sm:text-[36px] lg:text-[40px]">
+        <h2
+          data-aos="fade-up"
+          className="font-abhaya text-[32px] font-bold leading-[32px] text-[#1B1B1B] sm:text-[36px] lg:text-[40px]"
+        >
           What Our Patients Are saying
         </h2>
       </div>
 
-      <div className="mt-10 w-full sm:mt-12 lg:mt-14">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="100"
+        className="mt-10 w-full sm:mt-12 lg:mt-14"
+      >
         <Swiper
           onSwiper={(swiper) => {
             swiperRef.current = swiper

@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="w-full bg-black text-white">
       <div className="w-full px-[40px] lg:px-[100px] pt-[60px] pb-[80px]">
         <div className="grid w-full grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-[1fr_1.1fr_1fr_1.4fr_1.9fr] lg:gap-8 xl:gap-12">
-          <div>
+          <div data-aos="fade-up">
             <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
               Quick Links
             </h4>
@@ -43,7 +43,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up" data-aos-delay="80">
             <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
               Resources
             </h4>
@@ -75,7 +75,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div>
+          <div data-aos="fade-up" data-aos-delay="160">
             <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
               Legal
             </h4>
@@ -115,7 +115,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          <div className="flex flex-col justify-between">
+          <div data-aos="fade-up" data-aos-delay="240" className="flex flex-col justify-between">
             <div>
               <h4 className="mb-4 font-abhaya text-[18px] font-bold leading-[30px] tracking-[0.2px] text-golden">
                 Business Hours
@@ -144,7 +144,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-between">
+          <div data-aos="fade-up" data-aos-delay="320" className="flex flex-col justify-between">
             <div>
               <div className="flex items-center gap-3">
                 <img

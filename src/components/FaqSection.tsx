@@ -40,23 +40,35 @@ export default function FaqSection() {
   return (
     <section className="w-full bg-cream-secondary px-[24px] py-12 sm:px-[40px] md:px-[80px] md:py-16 lg:px-[175px] lg:py-[80px]">
       <div className="mx-auto w-full max-w-[1090px]">
-        <h2 className="text-center font-abhaya text-[32px] font-bold leading-[44px] tracking-[0px] text-black md:text-[40px] md:leading-[56px]">
+        <h2
+          data-aos="fade-up"
+          className="text-center font-abhaya text-[32px] font-bold leading-[44px] tracking-[0px] text-black md:text-[40px] md:leading-[56px]"
+        >
           Frequently asked questions
         </h2>
 
         <div className="mt-10 md:mt-14">
           {faqList.map((faq, index) => (
-            <FaqItem
+            <div
               key={faq.question}
-              question={faq.question}
-              answer={faq.answer}
-              isOpen={openIndex === index}
-              onToggle={() => handleToggle(index)}
-            />
+              data-aos="fade-up"
+              data-aos-delay={index * 80}
+            >
+              <FaqItem
+                question={faq.question}
+                answer={faq.answer}
+                isOpen={openIndex === index}
+                onToggle={() => handleToggle(index)}
+              />
+            </div>
           ))}
         </div>
 
-        <div className="mt-12 flex justify-center md:mt-16">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="mt-12 flex justify-center md:mt-16"
+        >
           <Button
             text="See all FAQ"
             showIcon={true}

@@ -39,7 +39,10 @@ export default function TreatmentFocusSection() {
   return (
     <section className="w-full bg-cream-secondary px-[24px] py-12 sm:px-[40px] md:py-16 lg:px-[80px] lg:py-[80px]">
       <div className="mx-auto w-full max-w-[1080px]">
-        <h2 className="text-center font-abhaya text-[30px] font-bold leading-[44px] text-black sm:text-[37.5px] sm:leading-[56.25px]">
+        <h2
+          data-aos="fade-up"
+          className="text-center font-abhaya text-[30px] font-bold leading-[44px] text-black sm:text-[37.5px] sm:leading-[56.25px]"
+        >
           Our Treatment Focus
         </h2>
 
@@ -52,6 +55,7 @@ export default function TreatmentFocusSection() {
               }`}
             >
               <div
+                data-aos={item.isReversed ? 'fade-left' : 'fade-right'}
                 className={`relative shrink-0 ${
                   item.isReversed ? 'lg:mr-10 xl:mr-12' : 'lg:ml-10 xl:ml-12'
                 }`}
@@ -66,16 +70,30 @@ export default function TreatmentFocusSection() {
                 </div>
               </div>
 
-              <div className="w-full max-w-[540px] text-left">
-                <h3 className="font-abhaya text-[26px] font-bold leading-[30px] text-black sm:text-[33.75px] sm:leading-[32.81px]">
+              <div
+                data-aos={item.isReversed ? 'fade-right' : 'fade-left'}
+                className="w-full max-w-[540px] text-left"
+              >
+                <h3
+                  data-aos="fade-up"
+                  className="font-abhaya text-[26px] font-bold leading-[30px] text-black sm:text-[33.75px] sm:leading-[32.81px]"
+                >
                   {item.title}
                 </h3>
 
-                <p className="mt-[24px] font-abhaya text-[17px] font-normal leading-[28px] text-black sm:text-[18.75px] sm:leading-[33.75px]">
+                <p
+                  data-aos="fade-up"
+                  data-aos-delay="100"
+                  className="mt-[24px] font-abhaya text-[17px] font-normal leading-[28px] text-black sm:text-[18.75px] sm:leading-[33.75px]"
+                >
                   {item.paragraph}
                 </p>
 
-                <div className="mt-[36px]">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                  className="mt-[36px]"
+                >
                   <Button
                     text="Learn More"
                     className="min-w-[180px] h-[52.5px]"

@@ -47,7 +47,10 @@ export default function WhyChooseUsSection() {
     <section className="relative w-full bg-[#F7EED9] py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-[1240px] px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-start gap-12 lg:grid-cols-12 lg:gap-16 xl:gap-20">
-          <div className="relative mx-auto w-full max-w-[540px] lg:col-span-6 lg:max-w-none">
+          <div
+            data-aos="fade-right"
+            className="relative mx-auto w-full max-w-[540px] lg:col-span-6 lg:max-w-none"
+          >
             <div className="relative z-10 overflow-hidden">
               <img
                 key={activeTab}
@@ -63,7 +66,10 @@ export default function WhyChooseUsSection() {
           </div>
 
           <div className="flex flex-col lg:col-span-6">
-            <h2 className="font-abhaya text-[32px] font-bold leading-[40px] text-black sm:text-[36px] sm:leading-[44px] lg:text-[40px] lg:leading-[47.5px]">
+            <h2
+              data-aos="fade-left"
+              className="font-abhaya text-[32px] font-bold leading-[40px] text-black sm:text-[36px] sm:leading-[44px] lg:text-[40px] lg:leading-[47.5px]"
+            >
               Why Should You Choose Ada Psychiatry?
             </h2>
 
@@ -73,6 +79,8 @@ export default function WhyChooseUsSection() {
                 return (
                   <div
                     key={index}
+                    data-aos="fade-left"
+                    data-aos-delay={index * 80}
                     className="border-b border-golden py-5 sm:py-6 last:border-b-0"
                   >
                     <button

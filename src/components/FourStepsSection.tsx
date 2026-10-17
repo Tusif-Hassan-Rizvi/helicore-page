@@ -44,6 +44,7 @@ export default function FourStepsSection() {
       <div className="mx-auto max-w-[1280px] px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24">
         <div className="mx-auto max-w-[620px] text-center">
           <h2
+            data-aos="fade-up"
             className="font-abhaya text-[32px] font-bold leading-[44px] text-transparent bg-clip-text sm:text-[36px] sm:leading-[50px] lg:text-[40px] lg:leading-[60px]"
             style={{
               backgroundImage:
@@ -60,7 +61,11 @@ export default function FourStepsSection() {
           <div className="mx-auto grid w-full max-w-[1260px] grid-cols-1 justify-items-center gap-10 sm:grid-cols-2 lg:flex lg:items-start lg:justify-between lg:gap-0">
             {stepsData.map((step, index) => (
               <Fragment key={step.number}>
-                <div className="flex w-[195px] shrink-0 flex-col items-center text-center">
+                <div
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                  className="flex w-[195px] shrink-0 flex-col items-center text-center"
+                >
                   <div className="flex h-[50px] w-[50px] items-center justify-center">
                     <img
                       src={step.icon}
@@ -111,7 +116,11 @@ export default function FourStepsSection() {
           </div>
         </div>
 
-        <div className="mt-12 flex justify-center sm:mt-14 lg:mt-16">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="200"
+          className="mt-12 flex justify-center sm:mt-14 lg:mt-16"
+        >
           <Button
             text="Schedule a Call"
             showIcon={true}
