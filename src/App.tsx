@@ -4,6 +4,7 @@ import FounderSection from './components/FounderSection'
 import TreatmentFocusSection from './components/TreatmentFocusSection'
 import QuoteBannerSection from './components/QuoteBannerSection'
 import ServicesSection from './components/ServicesSection'
+import WhyChooseUsSection from './components/WhyChooseUsSection'
 import FaqSection from './components/FaqSection'
 import Footer from './components/Footer'
 
@@ -17,6 +18,7 @@ function App() {
         <TreatmentFocusSection />
         <QuoteBannerSection />
         <ServicesSection />
+        <WhyChooseUsSection />
         <FaqSection />
       </main>
       <Footer />
